@@ -30,6 +30,8 @@ describe('This is my first Test Suit', function()
         // To compare value of Web Element
 
         cy.get('.brand').should('have.text','GREENKART')
+
+        console.log('This is for GIT demo')
         
         
     })

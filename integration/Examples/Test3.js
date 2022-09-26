@@ -37,6 +37,8 @@ describe('This is my third test suit',function()
     //Radio Button
     cy.get("input[value='radio2']").check().should('be.checked')
 
+    console.log('This is new line')
+
 
 
     
