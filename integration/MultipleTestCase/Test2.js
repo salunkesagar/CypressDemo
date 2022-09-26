@@ -21,6 +21,8 @@ describe('My second Test Suit',function()
                  //cy.get(':nth-child(14)').click()
                  //cy.get('button:visible').click()
                  cy.contains('Place Order').click()
+
+                 console.log('Updated for GIT Demo')
     })
 })
 

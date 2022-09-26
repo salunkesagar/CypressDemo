@@ -32,6 +32,8 @@ describe('This is my first Test Suit', function()
         cy.get('.brand').should('have.text','GREENKART')
 
         console.log('This is for GIT demo')
+
+        console.log('This is new line 1')
         
         
     })
